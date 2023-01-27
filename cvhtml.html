@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currilum</title>
+    <link rel="stylesheet" type="text/css" href="css/cvestilos.css">
+    <script src="js/cvfunciones.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Mi Curriculum Vitae</h1>
+    </header>
+
+    <h2>MARIO FIERRO PINEDA</h2>
+
+    <div>
+        <button id="btn_datos" onclick='mostrar("datos")'>Datos</button>
+        <button id="btn_experiencia" onclick='mostrar("experiencia")'>Experiencia</button>
+        <button id="btn_habilidades" onclick='mostrar("habilidades")'>Habilidades</button>
+    </div>
+
+    <div>
+        <form id="datos" style="display: none;">
+            <fieldset>
+                <p><strong>MARIO FIERRO PINEDA</strong></p>
+                <P>Agente Comercial</P>
+                <p><strong>Domicilio: </strong> Calle Carril de la Fuente, 45</p>
+                <p>13249 Ruidera</p>
+                <p><strong>E-mail: </strong> mariofierropineda@gmail.com</p>
+                <p><strong>Telefono: </strong>868 479 240</p>
+
+                <button onclick='ocultar("datos")'>Regresar</button>
+                <button id="btn_experiencia" style="display:none" </button>
+            </fieldset>
+        </form>
+
+        <form id="experiencia" style="display: none;">
+            <fieldset>
+                <p><strong> Agente Comercial Inmobiliaria RE/MAX Glorieta</strong> - Ciudad Real - Enero 2018 -
+                    Actualidad</p>
+                <p>- Captación de nuevos inmuebles para la venta.</p>
+                <p>- Elaboración planes de marketing para más de 100 inmuebles disponibles en cartera.</p>
+                <p>- Asesoramiento financiero a los clientes.</p>
+
+                <p><strong>Comercial Compañía de Seguros MACUS ASSESSORS SL</strong> - Ciudad Real - Julio 2014 -
+                    Diciembre 2017 </p>
+                <p>- Gestión de cartera con más de 150 clientes.</p>
+                <p>- Elaboración de propuestas comerciales para PYMES y para individuos. </p>
+
+                <button onclick='ocultar("experiencia")'>Regresar</button>
+
+            </fieldset>
+        </form>
+
+        <form id="habilidades" style="display: none;">
+            <fieldset>
+                <p>Orientación a resultados. Espíritu comercial. Comunicación efectiva.</p>
+                <p>Flexibilidad. Proactividad.</p>
+                <p>Idiomas: Inglés B2 / Francés B1. </p>
+                <p>Información adicional: Vehículo propio. Carnet de conducir. </p>
+
+                <button onclick='ocultar("habilidades)'>Regresar</button>
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

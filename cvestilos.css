@@ -1,0 +1,74 @@
+p {
+    font-family: "Trirong", serif;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+body {
+    background-color: #ffdd90;
+    background-image: url("https://static1.s123-cdn-static-a.com/uploads/5643639/2000_6166b05003212_filter_6167124c2a67f.jpg");
+
+}
+
+h1 {
+    font-family: "Trirong", serif;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 0px 0px white,
+        0px 1px 0px white,
+        -1px 0px 0px white,
+        0px -1px 0px white;
+}
+
+h2 {
+    font-family: "Trirong", serif;
+    font-size: 25px;
+    color:khaki;
+    text-align: center;
+    text-shadow: 1px 0px 0px black,
+        0px 1px 0px black,
+        -1px 0px 0px black,
+        0px -1px 0px black;
+}
+
+
+fieldset {
+    display: block;
+    background-color:darkgrey ;
+    border-width: 1px;
+    border-style:groove;
+    border-color: black;   
+}
+
+
+#miparrafo {
+    font-family: "Trirong", serif;
+    padding: 10px 15px 15px 20px;
+    font-size: 15px;
+    text-align: left;
+    color: aqua;
+    text-shadow: 1px 0px 0px black,
+        0px 1px 0px black,
+        -1px 0px 0px black,
+        0px -1px 0px black;
+}
+
+
+button {
+    padding: 5px;
+    margin: 10px;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+
+.ocultar {
+    display: none;
+}
+
+.mostrar {
+    display: block;
+}
